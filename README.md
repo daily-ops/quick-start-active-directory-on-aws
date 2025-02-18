@@ -1,5 +1,5 @@
 ## Terraform configuration for Windows Server 2022 + Active Directory Installation on AWS
-A quick start using Terraform configuration to create Windows Server 2022 with Active Directory feature added on AWS
+A quick start using Terraform configuration to create Windows Server 2022 with Active Directory feature added on AWS.
 
 ### Pre-requisites
 
@@ -14,6 +14,7 @@ A quick start using Terraform configuration to create Windows Server 2022 with A
 - Create a Security Group allowing RDP port **3389** from **ANYWHERE**.
 - Create an Intenet Gateway
 - Create a Windows Server 2022 instance with the default `t2.micro` free tier.
+- Active Directory Domain Service and DNS Service installed.
 
 ### Quick steps
 
